@@ -15,5 +15,9 @@ class Const {
         const val PARAM_SIGN = "sign"
         const val USER_ID = "userId"
 
+        //签到
+        const val SIGN_ID = "signId"
+
+
     }
 }
