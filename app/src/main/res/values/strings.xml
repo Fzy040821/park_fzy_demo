@@ -4,4 +4,24 @@
     <string name="login_name">请输入您的用户名</string>
     <string name="login_btn">登录</string>
     <string name="login_pwd">请输入密码</string>
+    <string name="sign_in_time">签到时间:</string>
+    <string name="sign_in_address">签到地址:</string>
+    <string name="sign_out_time">签退时间:</string>
+    <string name="sign_out_address">签退地址:</string>
+
+
+    <string-array name="months">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
 </resources>

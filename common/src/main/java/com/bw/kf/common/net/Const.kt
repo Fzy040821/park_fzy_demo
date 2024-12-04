@@ -16,7 +16,15 @@ class Const {
         const val USER_ID = "userId"
 
         //签到
+        const val URL_SIGN_IN = "/SysSign/startSign"//签到
+        const val URL_SIGN_OUT = "/SysSign/endSign"//签退
+        const val URL_GET_SIGN_LIST = "/SysSign/selMonth"//查询月签到记录
+        const val PARAM_MONTH = "month"
         const val SIGN_ID = "signId"
+        const val SIGN_END_ADDRESS = "endAddress"
+        const val SIGN_END_TIME = "endTime"
+        const val SIGN_START_ADDRESS = "startAddress"
+        const val SIGN_START_TIME = "startTime"
 
 
     }

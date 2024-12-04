@@ -32,6 +32,35 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:paddingTop="10dp"
             android:id="@+id/sign_btn"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择月份"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sign_header"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/get_list_month_tv"/>
+        
+        <Spinner
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/get_list_month_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:id="@+id/sign_spinner"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/sign_list_rv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintVertical_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/sign_btn"
+            app:layout_constraintTop_toBottomOf="@id/sign_spinner" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
