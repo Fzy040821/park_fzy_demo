@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-
         <com.bw.kf.park_fzy_kotlin.webView.X5WebView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

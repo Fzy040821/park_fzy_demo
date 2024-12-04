@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //TODO 自定义X5WebView
-        url = SPUtils.getInstance().getString(Const.HOME)
+//        url = SPUtils.getInstance().getString(Const.HOME)
+        url = "http://10.161.9.80:7035/index.html"
         Log.i("TAGA", "onCreate: WebViewUrl: $url")
         initWebView()
 
