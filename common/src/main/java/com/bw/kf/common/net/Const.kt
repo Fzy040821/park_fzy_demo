@@ -26,6 +26,15 @@ class Const {
         const val SIGN_START_ADDRESS = "startAddress"
         const val SIGN_START_TIME = "startTime"
 
+        //新闻
+        const val URL_GET_NEWS = "/sysNews/selAllNews"
+        const val PARAM_NEWS_PAGE = "page"
+        //添加新闻
+        const val URL_ADD_NEWS = "/sysNews/addNews"
+        const val NEWS_TIME = "newsTime"
+        const val NEWS_TITLE = "newsTitle"
+        const val NEWS_VALUE = "newsValue"
+
 
     }
 }

@@ -1,6 +1,7 @@
 package com.bw.kf.common.net.api
 
 import com.bw.kf.common.entity.BaseEntity
+import com.bw.kf.common.entity.NewsList
 import com.bw.kf.common.entity.SignEntity
 import com.bw.kf.common.net.Const
 import okhttp3.RequestBody
@@ -20,4 +21,13 @@ interface ApiService {
     //签退
     @POST(Const.URL_SIGN_OUT)
     suspend fun signOut(@Body body: RequestBody): BaseEntity<SignEntity>
+
+    //查询全部新闻
+    @POST(Const.URL_GET_NEWS)
+    suspend fun getNews(@Body body: RequestBody): BaseEntity<NewsList>
+
+    //添加新闻
+    @POST(Const.URL_ADD_NEWS)
+    suspend fun addNews(@Body body: RequestBody): BaseEntity<String>
+
 }

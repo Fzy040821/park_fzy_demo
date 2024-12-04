@@ -8,6 +8,7 @@ import android.webkit.JavascriptInterface
 import androidx.appcompat.app.AppCompatActivity
 import com.blankj.utilcode.util.SPUtils
 import com.bw.kf.common.net.Const
+import com.bw.kf.park_fzy_kotlin.news.NewsActivity
 import com.bw.kf.park_fzy_kotlin.sign.SignActivity
 import com.bw.kf.park_fzy_kotlin.webView.WebViewJavaScriptFunction
 import com.tencent.smtt.sdk.WebView
@@ -63,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         @JavascriptInterface
         fun androidaddculture(id: String){//文化编辑
             Log.i("TAGA", "androidaddculture: $id")
-//            start(NewsActivity::class.java)
+            start(NewsActivity::class.java)
         }
 
         //注册要监听的js事件

@@ -8,6 +8,12 @@
     <string name="sign_in_address">签到地址:</string>
     <string name="sign_out_time">签退时间:</string>
     <string name="sign_out_address">签退地址:</string>
+    <string name="news_titles">新闻标题</string>
+    <string name="news_content">新闻内容</string>
+    <string name="news_send_time">发布时间:</string>
+    <string name="input_news_title">请输入新闻标题</string>
+    <string name="input_news_content">请输入新闻内容</string>
+    <string name="commit_btn">提交</string>
 
 
     <string-array name="months">
